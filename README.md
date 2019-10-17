@@ -68,7 +68,7 @@ If I had more time to work on this project I would make numerous improvements on
 
     6. New features are needed to make a more well rounded application, I didn't focus too much on this during the design process. I wanted to make sure the simple features were done correctly and worked the way I wanted them too. So taking some time to create some more features would be great.
 
-** If you install this app to you local machine **
+**If you install this app to your local machine**
 
 I just wanted to include some instructions to make your life easier and not waste your time.
 
