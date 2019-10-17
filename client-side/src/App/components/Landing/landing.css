@@ -1,0 +1,47 @@
+.grocery-list-section {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 75%;
+    padding: 1rem;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(204, 192, 85);
+    border-radius: 10px;
+}
+
+.grocery-list-text {
+    margin-top: 0px;
+    margin-bottom: 0.75rem;
+}
+
+.update-list, .delete-list {
+    display: inline-block;
+    margin: 0px 0.5rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    background-color: rgb(61, 61, 61);
+}
+
+.update-list {
+    color: rgb(245, 208, 0);
+}
+
+.update-list h3 {
+    margin: 0px;
+}
+
+.delete-list {
+    color: rgb(151, 1, 1);
+    cursor: pointer;
+}
+
+.create-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    border-color: black;
+}

@@ -1,0 +1,52 @@
+#icons {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+/* Groups ---------------------------------------------------------- */
+
+.home, .small-logo, .menu {
+    height: 14vw;
+    max-height: 4.5rem;
+}
+
+/* Home ----------------------------------------------------------- */
+
+.home {
+    float: left;
+}
+
+.home:hover {
+    box-shadow: -110px 40px 50px -30px white;
+}
+
+.home:active {
+    box-shadow: -110px 40px 50px -30px rgb(211, 206, 58);
+}
+
+/* Logo -------------------------------------------------------- */
+
+.small-logo:hover {
+    box-shadow: 0px 47px 15px -37px white; 
+}
+
+.small-logo:active {
+    box-shadow: 0px 47px 15px -37px rgb(211, 206, 58);
+}
+
+
+/* Menu ------------------------------------------------------------- */
+
+.menu {
+    float: right;
+}
+
+
+.menu:hover {
+    box-shadow: 110px 40px 50px -30px white;  
+}
+
+.menu:active {
+    box-shadow: 110px 40px 50px -30px rgb(211, 206, 58);
+}

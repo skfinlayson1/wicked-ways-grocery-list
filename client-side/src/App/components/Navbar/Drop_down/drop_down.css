@@ -1,0 +1,37 @@
+#drop-down-container {
+    width: 100%;
+    position: fixed;
+    margin-top: 15vw;
+}
+
+#drop-down {
+    float: right;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+
+}
+
+#drop-down small {
+    float: left;
+    border: 2px solid black;
+    padding: 4px;
+    margin: 0px 0px -18px -18px;
+}
+
+#drop-down h3 {
+    text-decoration: none;
+    color: white;
+}
+
+#drop-down small:hover {
+    cursor: pointer;
+}
+
+@media all and (min-width: 515px) {
+    #drop-down-container {
+        margin-top: 5rem;
+    }
+}

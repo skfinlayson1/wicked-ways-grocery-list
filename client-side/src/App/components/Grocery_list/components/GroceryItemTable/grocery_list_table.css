@@ -1,0 +1,55 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid white;
+  }
+
+#item-table-container {
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 1rem 0px;
+    background-color: rgb(20, 20, 20);
+}
+
+#item-table {
+    width: 90%;
+    min-width: 400px;
+    margin: 0px auto;
+    background-color: rgb(20, 20, 20);
+}
+
+.item-edit {
+  color: rgb(245, 208, 0);
+}
+
+.item-delete {
+  color: rgb(151, 1, 1);
+  cursor: pointer;
+}
+
+
+/* Scrollbar settings */
+
+/* height */
+::-webkit-scrollbar {
+    height: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    border: 0.2rem solid rgb(36, 36, 36);
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    height: 15px;
+    background: rgb(107, 107, 107);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(42, 42, 42); 
+  }

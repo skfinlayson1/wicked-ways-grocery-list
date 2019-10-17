@@ -1,0 +1,7 @@
+.sign-in-section, .sign-up-section {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(36, 36, 36);
+    border-radius: 1rem;
+    border: 1px solid rgb(204, 192, 85);
+}

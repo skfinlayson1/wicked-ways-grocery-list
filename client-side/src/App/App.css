@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: rgb(231, 231, 231);
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+
+main {
+    margin-top: 14vw;
+}
+
+/* Back Button */
+
+.back-button {
+    width: 3.6rem;
+    padding: 0.5rem;
+    margin: 0px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.back-button h3 {
+    margin: 0px;
+}
+
+/* Standard form layout */
+
+.standard-form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 30px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+}
+
+.form-section {
+    padding-top: 20px;
+    width: 100%;
+}
+
+/* HTML Labels */
+
+.form-section input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    border-color: black;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* Submit */
+
+.submit-button {
+    width: 75%;
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+
+@media all and (min-width: 515px) {
+    main {
+        margin-top: 4.5rem;
+    }
+}

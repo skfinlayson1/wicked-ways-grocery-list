@@ -1,0 +1,35 @@
+{
+  "name": "wicked-ways-groceries-list",
+  "version": "1.0.0",
+  "description": "Grocery list",
+  "main": "server-side/server.js",
+  "scripts": {
+    "start": "node server-side/server.js",
+    "heroku-postbuild": "cd client-side && npm install --only=dev && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": "5.7.1",
+    "node": "10.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^6.2.0",
+    "flash": "^1.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.0",
+    "sequelize": "^5.19.1",
+    "sequelize-cli": "^5.5.1"
+  },
+  "author": "Shane Finlayson",
+  "license": "ISC"
+}
