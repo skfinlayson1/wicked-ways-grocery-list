@@ -40,6 +40,10 @@ Passport allows multiple devices to be signed into one user profile which made p
 
 Creation of grocery lists and grocery items are simple CRUD commands that all have validations to make sure all values are valid. I have added error messages to the front-end that allow users the ability to see what text they may have inputed incorrectly or possible errors that may occur on the server-side.
 
+>**Simple walk through**
+
+When a user first visits the sight they are introduced to sign-in and sign-up links. They can either choose to make a new user or sign-in to an existing one. Once signed in the user can create a new grocery list to add items too. They can delete and edit the names as they wish. When a grocery list is created the user can click on the new grocery list and begin adding items. All items can be marked as "purchased", edited and also deleted at will. If two people are signed in to the same profile, updates of the database will come in every 15 seconds. If a user selects the checkbox for "purchased" at the same time as another user, the server will keep the value set to the first input (notification from the InfoMessages component when this happens is planned for the future). 
+
 >**Trade-offs**
 
 My largest trade-off was deciding on how I wanted to handle data and user sessions. I fluctuated between using Firebase and Postgres. Firebase was my first choice for it's ability to update users when data has changed inside the database and could keep track of users as well. I decided to use Postgres though, one of my current websites is already using it and I wanted to get some more practice using Postgres, Passport and React together before I continue developing it.
@@ -91,5 +95,7 @@ I just wanted to include some instructions to make your life easier and not wast
  The reason why you must comment out one of the exports, is when you run it from the root directory the application believes it's in a production build and sets the environment accordingly, messing up the url. DON'T try to run "npm start" on the client-side and server-side. The two localhost's (port 8080 & 3000) will communicate with each other BUT the cookie will NOT be set on the client side. Creating a whole heap of issues and if you're like me, make your cry a little.
 
  If the tests on the client-side don't run, try editing each "test.js" file (I just simply added a space to each file). I'm guessing I am doing something wrong and not typing in the correct command. It was the only way I could get the tests to execute though.
+ 
+ I've created a simple example for you already, just visit the site https://wicked-ways-grocery-list.herokuapp.com/ and enter skfinlayson1 for the username and 123456 for the password.
  
  Thank you for your time, I hope you enjoy my little application!
