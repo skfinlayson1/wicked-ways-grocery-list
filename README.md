@@ -38,7 +38,7 @@ To keep the user up to date with changes to the database, I set an interval on t
 
 Passport allows multiple devices to be signed into one user profile which made programming this functionality relatively easy.
 
-Creation of grocery lists and grocery items are simple CRUD commands that all have validations to make sure all values are valid. I have added error messages to the front-end that allow users the ability to see what values they may have inputed incorrectly or possible errors that may occur on the server-side.
+Creation of grocery lists and grocery items are simple CRUD commands that all have validations to make sure all values are valid. I have added error messages to the front-end that allow users the ability to see what text they may have inputed incorrectly or possible errors that may occur on the server-side.
 
 >**Trade-offs**
 
@@ -78,9 +78,9 @@ I just wanted to include some instructions to make your life easier and not wast
 
     3. cd into "client-side" and run npm install
 
-    4. If you want to run this on your local machine you will have to look in the src/config/url_config.js and comment out the correct export. (I explain why down below)
+    4. If you want to run this on your local machine you will have to look in the src/config/url_config.js and comment out the correct export (I explain why down below). Also run "npm run build".
 
-    5. create postgres databases "grocery-list-dev" and "grocery-list-test"
+    5. create postgres databases "grocery-list-dev" and "grocery-list-test" and set SESSION_SECRET or just manually set it in the server-side config
 
     6. cd into the root directory of the application and type "npm start"
 
@@ -88,6 +88,8 @@ I just wanted to include some instructions to make your life easier and not wast
 
 
 
- The reason you must comment out one the exports, is when you run it from the root directory the application believes it's in a production build and sets the environment accordingly, messing up the url. DON'T try to run "npm start" on the client-side and server-side. The two localhost's (port 8080 & 3000) will communicate with each other BUT the cookie will NOT be set on the client side. Creating a whole heap of issues and if you're like me, make your cry a little.
+ The reason why you must comment out one of the exports, is when you run it from the root directory the application believes it's in a production build and sets the environment accordingly, messing up the url. DON'T try to run "npm start" on the client-side and server-side. The two localhost's (port 8080 & 3000) will communicate with each other BUT the cookie will NOT be set on the client side. Creating a whole heap of issues and if you're like me, make your cry a little.
 
- If the tests on the client-side don't run, try editing each "test.js" file (I added a simple space to each). I'm guessing I am doing something wrong and not typing in the correct command. It was the only way I could get the tests to execute though.
+ If the tests on the client-side don't run, try editing each "test.js" file (I just simply added a space to each file). I'm guessing I am doing something wrong and not typing in the correct command. It was the only way I could get the tests to execute though.
+ 
+ Thank you for your time, I hope you enjoy my little application!
