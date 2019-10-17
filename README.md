@@ -90,11 +90,13 @@ I just wanted to include some instructions to make your life easier and not wast
 
     7. Except my apology if I forgot a step! :)
 
-
+**Side Notes**
 
  The reason why you must comment out one of the exports, is when you run it from the root directory the application believes it's in a production build and sets the environment accordingly, messing up the url. DON'T try to run "npm start" on the client-side and server-side. The two localhost's (port 8080 & 3000) will communicate with each other BUT the cookie will NOT be set on the client side. Creating a whole heap of issues and if you're like me, make your cry a little.
 
  If the tests on the client-side don't run, try editing each "test.js" file (I just simply added a space to each file). I'm guessing I am doing something wrong and not typing in the correct command. It was the only way I could get the tests to execute though.
+ 
+ **If you want**
  
  I've created a simple example for you already, just visit the site https://wicked-ways-grocery-list.herokuapp.com/ and enter skfinlayson1 for the username and 123456 for the password.
  
